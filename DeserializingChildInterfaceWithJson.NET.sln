@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deserializer", "Deserializer\Deserializer.csproj", "{DF22DF5E-67AB-4902-929B-40CC47B2A5A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{9DD64970-BBD2-4B96-8ED9-3F87F76179B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF22DF5E-67AB-4902-929B-40CC47B2A5A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF22DF5E-67AB-4902-929B-40CC47B2A5A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF22DF5E-67AB-4902-929B-40CC47B2A5A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF22DF5E-67AB-4902-929B-40CC47B2A5A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DD64970-BBD2-4B96-8ED9-3F87F76179B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD64970-BBD2-4B96-8ED9-3F87F76179B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD64970-BBD2-4B96-8ED9-3F87F76179B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD64970-BBD2-4B96-8ED9-3F87F76179B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

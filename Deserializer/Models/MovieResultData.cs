@@ -13,6 +13,6 @@ namespace Deserializer.Models
         public string Name { get; set; }
 
         public string Studio { get; set; }
-        public DateTime ReleaseDate { get; set; }
+        public string Screenings { get; set; }
     }
 }

@@ -13,8 +13,6 @@ namespace Deserializer.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Group { get; set; }
-        public DateTime Requested { get; set; }
-        public DateTime Sent { get; set; }
 
         // Result Data
         public List<IResultData> ResultData { get; set; }

@@ -1,4 +1,4 @@
-DeserializingChildInterfaceWithJson.NET
+Deserializing Child Interface with Json.NET
 =======================================
 
 Sample code for deserializing child interface with Json.NET

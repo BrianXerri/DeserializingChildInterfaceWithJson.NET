@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Deserializer.Converters;
 using Deserializer.Interfaces;
 using Deserializer.Models;
@@ -80,8 +81,10 @@ namespace UnitTests
         [TestMethod]
         public void DeserializeJsonIResultDataToMovieResultData()
         {
+            var converter = new ResultDataConverter(typeof (MovieResultData));
+
             var deseralizeSettings = new JsonSerializerSettings();
-            deseralizeSettings.Converters.Add(new ResultDataConverter(typeof(MovieResultData)));
+            deseralizeSettings.Converters.Add(converter);
 
             var results = JsonConvert.DeserializeObject<ResultWrapper>(MovieJson, deseralizeSettings);
 
@@ -101,8 +104,10 @@ namespace UnitTests
         [TestMethod]
         public void DeserializeJsonIResultDataToTvShowResultData()
         {
+            var converter = new ResultDataConverter(typeof(TvShowResultData));
+
             var deseralizeSettings = new JsonSerializerSettings();
-            deseralizeSettings.Converters.Add(new ResultDataConverter(typeof(TvShowResultData)));
+            deseralizeSettings.Converters.Add(converter);
 
             var results = JsonConvert.DeserializeObject<ResultWrapper>(TvShowJson, deseralizeSettings);
 
